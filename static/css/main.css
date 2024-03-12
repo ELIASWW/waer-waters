@@ -4,6 +4,8 @@
   width: 100vw;
   gap: 1rem;
   justify-content: center;
+  height: 100vh;
+  align-items: center;
 }
 .image-container img {
   width: 48%;
