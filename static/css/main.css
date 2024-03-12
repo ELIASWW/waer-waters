@@ -1,0 +1,17 @@
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  gap: 1rem;
+  justify-content: center;
+}
+.image-container img {
+  width: 48%;
+  border: rgb(150, 204, 181) 0.5px solid;
+}
+body {
+  background-color: #000000;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
