@@ -7,24 +7,24 @@ const overlay$ = document.querySelector(".overlay");
 const body = document.querySelector("body");
 
 const letterWWallpapers = [
-  "iPhone 14 & 15 Pro - 1",
-  "iPhone 14 & 15 Pro - 2",
-  "iPhone 14 & 15 Pro - 3",
+  "iPhone 14 & 15 Pro - 1FR",
+  "iPhone 14 & 15 Pro - 2FR",
+  "iPhone 14 & 15 Pro - 3FR",
 ];
 const letterAWallpapers = [
-  "iPhone 14 & 15 Pro - 7",
-  "iPhone 14 & 15 Pro - 8",
-  "iPhone 14 & 15 Pro - 9",
+  "iPhone 14 & 15 Pro - 7FR",
+  "iPhone 14 & 15 Pro - 8FR",
+  "iPhone 14 & 15 Pro - 9FR",
 ];
 const letterCWallpapers = [
-  "iPhone 14 & 15 Pro - 4",
-  "iPhone 14 & 15 Pro - 5",
-  "iPhone 14 & 15 Pro - 6",
+  "iPhone 14 & 15 Pro - 4FR",
+  "iPhone 14 & 15 Pro - 5FR",
+  "iPhone 14 & 15 Pro - 6FR",
 ];
 const letterOWallpapers = [
-  "iPhone 14 & 15 Pro - 10",
-  "iPhone 14 & 15 Pro - 11",
-  "iPhone 14 & 15 Pro - 12",
+  "iPhone 14 & 15 Pro - 10FR",
+  "iPhone 14 & 15 Pro - 11FR",
+  "iPhone 14 & 15 Pro - 12FR",
 ];
 
 letterW$.addEventListener("click", () => {
