@@ -73,6 +73,22 @@ font-style: normal;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  color: white;
+}
+.top-container h1 {
+  font-size: 120%;
+  font-weight: 500;
+  font-family: "regulator-nova", sans-serif;
+  text-align: center;
+  padding: 3rem;
+  color: #9b9b9b;
+}
+.top-container h2 {
+  font-size: 100%;
+  font-weight: 500;
+  font-family: "regulator-nova", sans-serif;
+  text-align: center;
+  padding: 1rem;
 }
 .bottom-container {
   display: flex;
@@ -122,9 +138,9 @@ body {
 .overlay-text h1 {
   font-size: 200%;
   font-weight: 500;
-
   font-family: "regulator-nova", sans-serif;
 }
+
 .overlay-text p {
   font-size: 80%;
   font-weight: 500;
