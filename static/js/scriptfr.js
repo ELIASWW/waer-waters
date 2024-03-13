@@ -4,6 +4,7 @@ const letterC$ = document.querySelector("#c");
 const letterO$ = document.querySelector("#o");
 const images$ = document.querySelector(".image-container");
 const overlay$ = document.querySelector(".overlay");
+const overlayText$ = document.querySelector(".overlay-text");
 const body = document.querySelector("body");
 
 const letterWWallpapers = [
@@ -31,8 +32,9 @@ letterW$.addEventListener("click", () => {
   let randomIndex = Math.floor(Math.random() * letterWWallpapers.length);
   let randomWallpaper = letterWWallpapers[randomIndex];
   images$.style.display = "none";
-  overlay$.style.display = "block";
+  overlay$.style.display = "flex";
   overlay$.innerHTML = `<img src="static/img/letter-W/${randomWallpaper}.png" alt="Letter W" />`;
+  overlayText$.style.display = "flex";
   // const button$ = document.querySelector(".french");
   // button$.addEventListener("click", () => {
   //   overlay$.innerHTML = `<img src="static/img/letter-W/${randomWallpaper}FR.png" alt="Letter W" />`;
@@ -43,8 +45,9 @@ letterA$.addEventListener("click", () => {
   let randomIndex = Math.floor(Math.random() * letterAWallpapers.length);
   let randomWallpaper = letterAWallpapers[randomIndex];
   images$.style.display = "none";
-  overlay$.style.display = "block";
+  overlay$.style.display = "flex";
   overlay$.innerHTML = `<img src="static/img/letter-A/${randomWallpaper}.png" alt="Letter A" />`;
+  overlayText$.style.display = "flex";
   // const button$ = document.querySelector(".french");
   // button$.addEventListener("click", () => {
   //   overlay$.innerHTML = `<img src="static/img/letter-A/${randomWallpaper}FR.png" alt="Letter A" />`;
@@ -55,8 +58,9 @@ letterC$.addEventListener("click", () => {
   let randomIndex = Math.floor(Math.random() * letterCWallpapers.length);
   let randomWallpaper = letterCWallpapers[randomIndex];
   images$.style.display = "none";
-  overlay$.style.display = "block";
+  overlay$.style.display = "flex";
   overlay$.innerHTML = `<img src="static/img/letter-C/${randomWallpaper}.png" alt="Letter C" />`;
+  overlayText$.style.display = "flex";
   // const button$ = document.querySelector(".french");
   // button$.addEventListener("click", () => {
   //   overlay$.innerHTML = `<img src="static/img/letter-C/${randomWallpaper}FR.png" alt="Letter C" />`;
@@ -67,7 +71,8 @@ letterO$.addEventListener("click", () => {
   let randomIndex = Math.floor(Math.random() * letterOWallpapers.length);
   let randomWallpaper = letterOWallpapers[randomIndex];
   images$.style.display = "none";
-  overlay$.style.display = "block";
+  overlay$.style.display = "flex";
+  overlayText$.style.display = "flex";
   overlay$.innerHTML = `<img src="static/img/letter-O/${randomWallpaper}.png" alt="Letter O" />`;
 
   // const button$ = document.querySelector(".french");
