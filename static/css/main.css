@@ -104,8 +104,7 @@ body {
 }
 .overlay img {
   max-width: 40%;
-  height: 50vw;
-  width: 20rem;
+  min-width: 10rem;
 }
 .show-overlay {
   display: block;
@@ -121,18 +120,17 @@ body {
   align-items: center;
 }
 .overlay-text h1 {
-  font-size: 4rem;
+  font-size: 200%;
   font-weight: 500;
 
   font-family: "regulator-nova", sans-serif;
 }
 .overlay-text p {
-  font-size: 1rem;
+  font-size: 80%;
   font-weight: 500;
   font-family: "regulator-nova", sans-serif;
-  max-width: 50%;
-  margin-top: 2rem;
+  padding: 0.5rem;
 }
-s .overlay-text .hidden {
+.overlay-text .hidden {
   display: none;
 }
