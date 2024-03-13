@@ -14,7 +14,7 @@ font-style: normal;
 */
 
 .language-container {
-  width: 100%;
+  width: 100vw;
   height: 100vh; /* Neemt 100% van de viewport hoogte in */
   background-color: lightblue;
   margin: 0; /* Zorgt ervoor dat er geen ruimte tussen de div en de randen van het scherm is */
@@ -23,8 +23,9 @@ font-style: normal;
 }
 
 .french-container {
-  width: 50%;
+  width: 60vw;
   background-color: rgb(255, 255, 255);
+  padding: 0;
 }
 
 .french-container a {
@@ -43,14 +44,15 @@ font-style: normal;
 }
 .dutch-container {
   background-color: rgb(0, 0, 0);
-  width: 50%;
+  width: 60vw;
+  padding: 0;
 }
 
 .dutch-container,
 .french-container {
   display: flex;
   align-items: center;
-  width: 50%;
+  width: 100%;
   justify-content: center;
 }
 .dutch-container a,
