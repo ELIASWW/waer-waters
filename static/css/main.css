@@ -55,7 +55,6 @@ font-style: normal;
 }
 .dutch-container a,
 .french-container a {
-  min-width: 20rem;
   display: flex;
   justify-content: center;
 }
